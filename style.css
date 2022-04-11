@@ -1,0 +1,19 @@
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+   
+body{
+  background-image: url(ukulele.jpg), url(betterdays.jpg),url(sunny.jpg);
+  background-position: right, center,left;
+  background-repeat: no-repeat,no-repeat,no-repeat;
+  background-color: pink;
+}
+.player {
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
